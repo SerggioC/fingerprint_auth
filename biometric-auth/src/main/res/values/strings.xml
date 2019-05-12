@@ -2,5 +2,8 @@
 <resources>
 
     <string name="biometric_failed">Fingerprint not recognized</string>
+    <string name="fingerprint_icon">Fingerprint Icon</string>
+    <string name="app_icon">App Icon</string>
+    <string name="fingerprint_recognized">Fingerprint recognized</string>
 
 </resources>

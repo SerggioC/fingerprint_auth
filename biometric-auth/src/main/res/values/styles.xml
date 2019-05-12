@@ -7,9 +7,13 @@
     <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
         <item name="android:windowIsFloating">true</item>
         <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="ridgeColorOn">#FFFFFF</item>
+        <item name="ridgeColorOff">#969696</item>
+        <item name="errorColor">@android:color/holo_red_light</item>
+        <item name="successColor">@android:color/holo_green_dark</item>
     </style>
 
-    <!-- set the rounded drawable as background to your bottom sheet -->
+    <!-- set the rounded drawable as background of the bottom sheet -->
     <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
         <item name="android:background">@drawable/bg_bottom_sheet</item>
     </style>

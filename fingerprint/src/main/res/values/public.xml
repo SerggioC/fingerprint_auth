@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <public name="ridgeColorOn" type="attr"/>
+  <public name="ridgeColorOff" type="attr"/>
+  <public name="errorColor" type="attr"/>
+  <public name="successColor" type="attr"/>
+  <public name="state" type="attr"/>
+</resources>

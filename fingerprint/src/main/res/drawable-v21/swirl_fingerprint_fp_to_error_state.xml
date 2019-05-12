@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright (C) 2017 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="ic_fingerprint_toerror"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <group
+        android:name="fingerprintwhite"
+        android:scaleX="0.738"
+        android:scaleY="0.738"
+        android:translateX="12"
+        android:translateY="12.4">
+        <group
+            android:name="fingerprintwhite_pivot"
+            android:translateX="33"
+            android:translateY="34">
+            <group android:name="ridge_5">
+                <path
+                    android:name="ridge_5_path"
+                    android:pathData="@string/ridge_path_5"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/ridgeColorOn"
+                    android:strokeLineCap="round"
+                    tools:strokeColor="@android:color/holo_green_dark" />
+            </group>
+            <group android:name="ridge_4">
+                <path
+                    android:name="ridge_7_path"
+                    android:pathData="@string/ridge_path_7"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/ridgeColorOn"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeLineCap="round" />
+            </group>
+            <group android:name="ridge_3">
+                <path
+                    android:name="ridge_6_path"
+                    android:pathData="@string/ridge_path_6"
+                    android:strokeWidth="1.45"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeColor="?attr/ridgeColorOn"
+                    android:strokeLineCap="round" />
+            </group>
+            <group android:name="ridge_2">
+                <path
+                    android:name="ridge_2_path"
+                    android:pathData="@string/ridge_path_2"
+                    android:strokeWidth="1.45"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeColor="?attr/ridgeColorOn"
+                    android:strokeLineCap="round" />
+            </group>
+            <group
+                android:name="ridge_1"
+                android:translateX="-97.5"
+                android:translateY="-142.5">
+                <path
+                    android:name="ridge_1_path"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:pathData="@string/ridge_path_1"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/ridgeColorOn"
+                    android:strokeLineCap="round" />
+            </group>
+        </group>
+    </group>
+
+    <group
+        android:name="fingerprinterror"
+        android:scaleX="0.738"
+        android:scaleY="0.738"
+        android:translateX="12"
+        android:translateY="12.4">
+        <group
+            android:name="fingerprinterror_pivot"
+            android:translateX="33"
+            android:translateY="34">
+            <group android:name="ridge_6">
+                <path
+                    android:name="ridge_5_path_0"
+                    android:pathData="@string/ridge_path_5"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/errorColor"
+                    tools:strokeColor="@android:color/holo_red_light"
+                    android:strokeLineCap="round"
+                    android:trimPathEnd="0" />
+            </group>
+            <group android:name="ridge_7">
+                <path
+                    android:name="ridge_7_path_0"
+                    android:pathData="@string/ridge_path_7"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/errorColor"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeLineCap="round"
+                    android:trimPathEnd="0" />
+            </group>
+            <group android:name="ridge_8">
+                <path
+                    android:name="ridge_6_path_0"
+                    android:pathData="@string/ridge_path_6"
+                    android:strokeWidth="1.45"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeColor="?attr/errorColor"
+                    android:strokeLineCap="round"
+                    android:trimPathEnd="0" />
+            </group>
+            <group android:name="ridge_9">
+                <path
+                    android:name="ridge_2_path_0"
+                    android:pathData="@string/ridge_path_2"
+                    android:strokeWidth="1.45"
+                    android:strokeColor="?attr/errorColor"
+                    android:strokeLineCap="round"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:trimPathStart="1" />
+            </group>
+            <group
+                android:name="ridge_10"
+                android:translateX="-97.5"
+                android:translateY="-142.5">
+                <path
+                    android:name="ridge_1_path_0"
+                    android:pathData="@string/ridge_path_1"
+                    android:strokeWidth="1.45"
+                    tools:strokeColor="@android:color/holo_green_dark"
+                    android:strokeColor="?attr/errorColor"
+                    android:strokeLineCap="round"
+                    android:trimPathEnd="0" />
+            </group>
+        </group>
+    </group>
+
+    <group
+        android:name="errorcircle"
+        android:rotation="190"
+        android:translateX="12"
+        android:translateY="12">
+        <group android:name="circle">
+            <path
+                android:name="circlepath"
+                android:pathData="@string/circle_path"
+                android:strokeWidth="2"
+                tools:strokeColor="@android:color/holo_green_dark"
+                android:strokeColor="?attr/errorColor"
+                android:strokeLineCap="round"
+                android:trimPathStart="1" />
+        </group>
+    </group>
+    <group
+        android:name="errorexclamation"
+        android:rotation="180"
+        android:translateX="12"
+        android:translateY="12">
+        <group
+            android:name="exclamationbottom"
+            android:translateY="4">
+            <path
+                android:name="bottompath"
+                android:fillColor="?attr/errorColor"
+                tools:strokeColor="@android:color/holo_green_dark"
+                android:pathData="@string/bottom_path_2" />
+        </group>
+        <group android:name="exclamationtop">
+            <path
+                android:name="toppath"
+                android:fillColor="?attr/errorColor"
+                tools:strokeColor="@android:color/holo_green_dark"
+                android:pathData="@string/top_path_2" />
+        </group>
+    </group>
+</vector>
