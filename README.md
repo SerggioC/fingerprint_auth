@@ -12,13 +12,7 @@ This library provides an easy way to implement fingerprint authentication withou
 
 
 <h2>How to integrate the library in your app?</h2>
-<b>Gradle Dependecy</b></br>
 
-```gradle
-dependencies {
-        implementation(group: 'com.an.biometric', name: 'biometric-auth', version: '0.1.0', ext: 'aar', classifier: '')
-}
-```
 
 <h2>Usage</h2>
 
